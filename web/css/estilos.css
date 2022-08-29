@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    
+}
+
+
+/*
+@keyframes animacion
+{
+    0%
+    {
+        background-position: 0% 50%;
+    }
+    50%
+    {
+        background-position: 100% 50%;
+    }
+    100%
+    {
+        background-position: 0% 50%;
+    }
+}
+/*Diseño de LOGIN*/
+.contenido
+{
+    width: 250px;
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%,-50%);
+}
+.formlogin
+{
+   display: flex;
+   flex-direction: column;
+   background: #fff;
+   text-align: center;
+   padding: 20px 25px;
+   box-shadow: 0 5px 10px rgba(71, 3, 6, 0.7);
+}
+.login
+{
+    color: #FF7F00;
+    font-size: 35px;
+    font-weight: 800;
+    margin-bottom: 30px;
+    text-align: center;
+}
+form label
+{
+    margin-bottom: 35px;
+}
+form label input
+{
+    outline: none;
+    border: none;
+    color: #252525;
+    border-bottom: solid 1px black;
+
+}
+#button 
+{
+    color: #fff;
+    border: none;
+    background-color: #FF7F00;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.unDraw
+{
+    width: 50%;
+    margin-top: 70px;
+}
+/**Menu**/
+.venta
+{
+    margin-top: 100px
+}
+
+nav
+{
+    background-color:#FF7F00;
+    height: 80px;
+    width: 100%;
+}
+.usuario
+{
+    background-color:#FF7F00;
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+
+}
+.enlace
+{
+    position: absolute;
+    padding: 20px 50px;
+}
+.logo
+{
+    height: 150px;
+}
+nav form ul
+{
+    float: right;
+    margin-right: 20px;
+    
+}
+nav form ul li
+{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav form ul li a
+{
+    color: black;
+    font-size: 18px;
+    padding: 7px 13px;
+    text-transform: uppercase;
+}
+li a.active, li a:hover
+{
+    color: #fff;
+    transition: .5s;
+}
+.cerrar
+{
+    width: 70px;
+    font-size: 18px;
+    text-transform: uppercase;
+    background:none;
+    border: none;
+    color: #922B21;
+}
+.iconos
+{
+    width: 18px;
+}
+.iconE i
+{
+    font-size: 15px;
+    color: #44e424;
+}
+.iconEl i
+{
+    font-size: 15px;
+    color: #ff0000;
+}
+/****FORMULARIO*****/
+h3
+{
+    color: black;
+}
+.clientesNuevo
+{
+    float: left;
+    margin-top: 30px;
+}
+.clientesLeft
+{
+    float: right;
+    font-size: 12px;
+}
+
+.form-datos
+{
+    width: 400px;
+    margin-left: 50px;
+    border-radius: 4px;
+    font-family: arial;
+    color: white;
+}
+.bottons
+{
+   width: 100%;
+   background:#FF7F00;
+   border: none;
+   padding: 12px;
+   color: white;
+   border-radius: 5px;
+}
+.cont-editar
+{
+    
+    width: 400px;
+    margin-left: 35%;
+    border-radius: 4px;
+    font-family: arial;
+    color: black;
+}
+
